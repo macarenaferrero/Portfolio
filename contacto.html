@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <script
+      src="https://kit.fontawesome.com/f41adcfa60.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Contactémosnos</h1>
+
+    <form method="POST" action="#">
+      <label for="nombre_completo">Nombre Completo *</label>
+      <input
+        autofocus
+        type="text"
+        id="nombre_completo"
+        placeholder="Nombre Completo"
+        required
+      />
+      <br />
+      <label for="asunto">Asunto *</label>
+      <input type="text" id="asunto" placeholder="Asunto" required />
+      <br />
+      <label for="correo">Correo</label>
+      <input
+        type="mail"
+        id="correo"
+        placeholder="ejemplo@correo.com"
+        required
+      />
+      <br />
+      <label for="texto">Dejá tu mensaje</label>
+      <br />
+      <textarea
+        id="texto"
+        maxlength="100"
+        rows="10"
+        cols="40"
+        placeholder="Dejame tu mensaje y pronto me pondré en contacto contigo."
+        required
+      ></textarea>
+      <button>Enviar</button>
+    </form>
+    <br />
+    <a href="https://www.facebook.com/macarenaferrero/" target="_blank">
+      <i class="fab fa-facebook fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/ferreromaca/" target="_blank">
+      <i class="fab fa-instagram fa-2x"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/macarenaferrero/" target="_blank">
+      <i class="fab fa-linkedin fa-2x"></i>
+    </a>
+  </body>
+</html>
