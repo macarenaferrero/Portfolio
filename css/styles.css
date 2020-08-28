@@ -1,0 +1,78 @@
+/*Comentamos como en c*/
+
+h1,
+h4 {
+  color: whitesmoke;
+  font-size: 32px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+}
+h2,
+h3,
+span,
+nav {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  font-size: 15px;
+}
+header {
+  background: rgb(59, 2, 57);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 3px solid black;
+}
+.padding-titulo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.margin-titulo {
+  margin-bottom: 10px;
+  margin-left: 1px;
+  margin-top: 20px;
+}
+
+.sizenavegacion {
+  font-size: 20px;
+  text-align: center;
+}
+.destacar {
+  color: white;
+  font-size: 30px;
+  background-color: rgb(87, 16, 69);
+  height: 40px;
+  text-align-last: left;
+  padding-left: 20px;
+  border: 3px solid black;
+}
+
+h2:hover {
+  background: rgb(139, 28, 112);
+}
+
+/* NO VISITADO*/
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+/* VISITADO*/
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* ACTIVO*/
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+/* POSICIÓN MAUSE*/
+a:hover {
+  color: rgb(87, 16, 69);
+  text-decoration: none;
+  font-size: 22px;
+}
