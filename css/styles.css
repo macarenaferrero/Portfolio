@@ -1,29 +1,32 @@
-<<<<<<< HEAD
 /*Comentamos como en c*/
 
 h1,
 h4 {
   color: whitesmoke;
-  font-size: 32px;
+  font-size: 40px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-style: initial;
+  border-color: #D1F2EB;
 }
 h2,
 h3,
 span,
 nav {
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  border-color: #D1F2EB;
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 20px;
 }
 header {
-  background: rgb(59, 2, 57);
+  background: #48C9B0;
   padding-top: 25px;
   padding-bottom: 25px;
   border: 3px solid black;
+  border-color: #D1F2EB;
 }
 .padding-titulo {
   padding-top: 20px;
@@ -42,15 +45,16 @@ header {
 .destacar {
   color: white;
   font-size: 30px;
-  background-color: rgb(87, 16, 69);
+  background: #48C9B0;
   height: 40px;
   text-align-last: left;
   padding-left: 20px;
-  border: 3px solid black;
+  border: 3px solid #D1F2EB;
 }
 
+
 h2:hover {
-  background: rgb(139, 28, 112);
+  background: #48C9B0;
 }
 
 /* NO VISITADO*/
@@ -73,37 +77,7 @@ a:active {
 
 /* POSICIÓN MAUSE*/
 a:hover {
-  color: rgb(87, 16, 69);
+  background: #48C9B0;
   text-decoration: none;
   font-size: 22px;
 }
-=======
-/*Comentamos como en c*/
-
-h1,
-h4 {
-  color: whitesmoke;
-  font-size: 32px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: initial;
-}
-
-h4 {
-  font-size: 20px;
-}
-header {
-  background: rgb(59, 2, 57);
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.destacar {
-  color: white;
-  font-size: 30px;
-  background-color: rgb(87, 16, 69);
-  height: 40px;
-  text-align-last: left;
-  padding-left: 20px;
-}
->>>>>>> e27735b36fd4a3251a22fee82e7099fa21a27a32
